@@ -6,11 +6,16 @@ import arrow2 from "../assets/arrow2.png";
 
 export default function CTA() {
   return (
-    <div className="flex flex-row sm:px-28 px-5 sm:py-20 py-4">
+    <div className="flex flex-row sm:px-28 sm:py-20 py-4">
       {/*  */}
-      <div className="flex sm:justify-between sm:flex-row flex-col gap-8 w-full relative ">
+      <div className="flex sm:justify-between sm:flex-row flex-col sm:gap-8 w-full relative ">
         {/*  */}
-        <div className="flex flex-col sm:max-w-[380px] w-full  bg-white px-5 py-5 rounded-lg gap-3">
+        <div
+          style={{
+            boxShadow: "0px 2px 4px -2px #0000000D, 0px 4px 6px -1px #0000001A",
+          }}
+          className="flex flex-col sm:w-[400px]   bg-white px-5 py-5 rounded-lg gap-3"
+        >
           <h1 className="font-[700] text-[22px] leading-[30px] text-black">
             Add keywords or websites
           </h1>
@@ -23,7 +28,12 @@ export default function CTA() {
           </div>
         </div>
         {/*  */}
-        <div className="flex flex-col max-w-[380px] bg-white px-5 py-5 rounded-lg gap-3">
+        <div
+          style={{
+            boxShadow: "0px 2px 4px -2px #0000000D, 0px 4px 6px -1px #0000001A",
+          }}
+          className="flex flex-col sm:w-[440px] bg-white px-5 py-5 rounded-lg gap-3"
+        >
           <h1 className="font-[700] text-[22px] leading-[30px] text-black">
             Build landscape
           </h1>
@@ -36,7 +46,12 @@ export default function CTA() {
           </div>
         </div>
         {/*  */}
-        <div className="flex flex-col max-w-[380px] bg-white px-5 py-5 rounded-lg gap-3">
+        <div
+          style={{
+            boxShadow: "0px 2px 4px -2px #0000000D, 0px 4px 6px -1px #0000001A",
+          }}
+          className="flex flex-col sm:w-[400px]  bg-white px-5 py-5 rounded-lg gap-3"
+        >
           <h1 className="font-[700] text-[22px] leading-[30px] text-black">
             Uncover insights
           </h1>
@@ -48,11 +63,11 @@ export default function CTA() {
             <img src={cover3} alt="" className="w-full" />
           </div>
         </div>
-        <div className="sm:absolute hidden bottom-[50px] left-[800px]">
-          <img src={arrow1} alt="" />
+        <div className="absolute bottom-[50px] left-[750px]">
+          <img src={arrow1} alt="" className="w-20" />
         </div>
-        <div className="sm:absolute hidden left-[335px] top-[40px]">
-          <img src={arrow2} alt="" />
+        <div className="absolute  left-[305px] top-[40px]">
+          <img src={arrow2} alt="" className="w-20" />
         </div>
       </div>
     </div>

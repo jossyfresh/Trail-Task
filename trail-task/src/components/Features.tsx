@@ -49,7 +49,7 @@ export default function Features() {
         </div>
       </div>
       <div className="flex sm:hidden max-w-full snap-x snap-mandatory space-x-3 overflow-scroll rounded-full p-2 px-1 hide-scrollbar">
-        <div className="flex flex-row gap-2 px-4 py-2 bg-white rounded-md w-68 shrink-0 justify-center hover:border border-[#4B42F4] hover:text-[#4B42F4]">
+        <div className="flex flex-row gap-2 px-4 py-2 bg-white rounded-md w-68 shrink-0 justify-center hover:border hover:border-[#4B42F4] hover:text-[#4B42F4] border border-[#EDEDF0]">
           <Icon
             icon="uit:arrow-up-right"
             fontSize={22}
@@ -58,19 +58,19 @@ export default function Features() {
           />
           <p>Winners & Losers</p>
         </div>
-        <div className="flex flex-row gap-2 px-4 py-2 bg-white rounded-md w-68 shrink-0 justify-center hover:border border-[#4B42F4] hover:text-[#4B42F4]">
+        <div className="flex flex-row gap-2 px-4 py-2 bg-white rounded-md w-68 shrink-0 justify-center hover:border hover:border-[#4B42F4] hover:text-[#4B42F4] border border-[#EDEDF0]">
           <Icon icon="ph:medal-fill" fontSize={22} color="#404452" />
           <p>Leaderboards</p>
         </div>
-        <div className="flex flex-row gap-2 px-4 py-2 bg-white rounded-md w-68 shrink-0 justify-center hover:border border-[#4B42F4] hover:text-[#4B42F4]">
+        <div className="flex flex-row gap-2 px-4 py-2 bg-white rounded-md w-68 shrink-0 justify-center hover:border hover:border-[#4B42F4] hover:text-[#4B42F4] border border-[#EDEDF0]">
           <Icon icon="tdesign:time" fontSize={22} color="#404452" />
           <p>New Entrants</p>
         </div>
-        <div className="flex flex-row gap-2 px-4 py-2 bg-white rounded-md w-68 shrink-0 justify-center hover:border border-[#4B42F4] hover:text-[#4B42F4]">
+        <div className="flex flex-row gap-2 px-4 py-2 bg-white rounded-md w-68 shrink-0 justify-center hover:border hover:border-[#4B42F4] hover:text-[#4B42F4] border border-[#EDEDF0]">
           <Icon icon="mdi:google" fontSize={22} color="#404452" />
           <p>Unique SEO Metrics</p>
         </div>
-        <div className="flex flex-row gap-2 px-4 py-2 bg-white rounded-md w-68 shrink-0 justify-center hover:border border-[#4B42F4] hover:text-[#4B42F4]">
+        <div className="flex flex-row gap-2 px-4 py-2 bg-white rounded-md w-68 shrink-0 justify-center hover:border hover:border-[#4B42F4] hover:text-[#4B42F4] border border-[#EDEDF0]">
           <Icon icon="tabler:folder" fontSize={22} color="#404452" />
           <p>Portfolios</p>
         </div>

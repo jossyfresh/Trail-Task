@@ -16,10 +16,23 @@ export default function Hero() {
 
       {/* Buttons Section */}
       <div className="flex flex-col sm:flex-row gap-4 sm:gap-12 w-[90%]  mx-auto justify-center">
-        <button className="px-4 py-3 bg-buttonPrimary text-white rounded-md text-sm sm:text-base font-medium flex items-center justify-center">
-          Create Landscape -<span className="font-bold">&nbsp; it's Free</span>
+        <button
+          style={{
+            border: "0.5px solid",
+            borderImageSource:
+              "linear-gradient(180deg, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0) 100%)",
+            borderImageSlice: 1,
+          }}
+          className="px-4 py-3 bg-buttonPrimary text-white rounded-md text-sm sm:text-base font-medium flex items-center justify-center"
+        >
+          Create Landscape -<span className="font-bold">&nbsp;it's Free</span>
         </button>
-        <button className="px-4 py-3 bg-white text-[#212330] rounded-md border border-gray-300 text-sm sm:text-base font-medium">
+        <button
+          style={{
+            boxShadow: "0px 0px 0px 1px #ECEFF4, 0px 1px 2px 0px #080B121A",
+          }}
+          className="px-4 py-3 bg-white text-[#212330] rounded-md border border-gray-300 text-sm sm:text-base font-medium"
+        >
           Schedule Demo
         </button>
       </div>

@@ -51,7 +51,12 @@ export default function Navbar() {
 
         {/* right corner */}
         <div className="hidden xl:flex xl:flex-row xl:gap-5 xl:items-center">
-          <button className="px-2.5 py-2 bg-buttonPrimary text-white rounded-md font-sans">
+          <button
+            style={{
+              boxShadow: "0px 0px 0px 1px #4B42F0, 0px 1px 2px 0px #08062F40",
+            }}
+            className="px-2.5 py-2 bg-buttonPrimary text-white rounded-md font-sans"
+          >
             Create Landscape
           </button>
           <button className="px-2.5 py-2 border-[2px] border-white rounded-md font-[500] text-white">
